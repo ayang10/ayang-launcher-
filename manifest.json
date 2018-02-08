@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+
+    "name": "A Yang Launcher",
+    "description": "Quick launch A Yang Stuff",
+    "version": "1.0.0",
+    "icons": {"128": "flake-128.png"},
+    "browser_action": {
+        "default_icon": "flake.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
